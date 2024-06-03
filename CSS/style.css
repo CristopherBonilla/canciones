@@ -52,6 +52,7 @@ header {
     color: #fff;
     border-radius: 5px; /* Ajusta el valor según el grado de curvatura que desees */
     cursor: pointer;
+    margin-bottom: 5px;
 }
 
 .boton:hover {
@@ -66,4 +67,10 @@ h3 {
 audio {
     display: block;
     margin: 0 auto 20px; /* Centrar el reproductor horizontalmente */
+}
+
+#barraProgresoGatitaOnly,
+#barraProgresoCancionDos,
+#barraProgresoCancionTres{
+    margin-top: 10px;
 }
