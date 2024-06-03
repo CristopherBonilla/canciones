@@ -35,7 +35,7 @@ header {
     text-align: center;
     margin: 20px auto; /* Centrar horizontalmente */
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.283); /* Fondo semi-transparente */
+    background-color: rgba(255, 255, 255, 0.084); /* Fondo semi-transparente */
     border-radius: 10px;
     max-width: 300px; /* Ancho máximo de las tarjetas */
     transition: all 300ms;
