@@ -12,15 +12,10 @@
     padding: 0px;
 }
 
-html, body {
-    min-height: 100vh; /* Asegura que cubra al menos el 100% de la altura de la ventana */
-    margin: 0; /* Elimina los márgenes predeterminados */
-    padding: 0; /* Elimina el relleno predeterminado */
-}
 
-body {
+html {
     background-color: #000;
-    background: url('../Medios/fondo.jpg') no-repeat center center fixed;
+    background: url('../Medios/fondo.jpg');
     background-size: cover; /* Hace que la imagen de fondo cubra toda la página */
     color: #fff; 
     font-family: "TrebuchetMS";
