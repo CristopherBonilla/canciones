@@ -41,13 +41,39 @@
     <div class="card">
         <h3>Canción 3</h3>
         <button class="boton" onclick="reproducirAudio('audioCancionTres', 'controlesCancionTres')">Reproducir</button>
-        <audio id="audioCancionTres" src="Medios/canciontres.mp3"></audio>
+        <audio id="audioCancionTres" src="Medios/cancion3.mp3"></audio>
         <div id="controlesCancionTres" class="controles" style="display: none;">
             <button class="boton" onclick="pausarAudio('audioCancionTres')">Pausar</button>
             <button class="boton" onclick="detenerAudio('audioCancionTres')">Detener</button>
             <button class="boton" onclick="retrocederAudio('audioCancionTres', 10)">Retroceder</button>
             <button class="boton" onclick="adelantarAudio('audioCancionTres', 10)">Adelantar</button>
             <input type="range" id="barraProgresoCancionTres" value="0" max="100" step="1" onchange="cambiarProgreso('audioCancionTres', 'barraProgresoCancionTres')">
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="card">
+        <h3>Canción 4</h3>
+        <button class="boton" onclick="reproducirAudio('audioCancionCuatro', 'controlesCancionCuatro')">Reproducir</button>
+        <audio id="audioCancionCuatro" src="Medios/cancion4.mp3"></audio>
+        <div id="controlesCancionCuatro" class="controles" style="display: none;">
+            <button class="boton" onclick="pausarAudio('audioCancionCuatro')">Pausar</button>
+            <button class="boton" onclick="detenerAudio('audioCancionCuatro')">Detener</button>
+            <button class="boton" onclick="retrocederAudio('audioCancionCuatro', 10)">Retroceder</button>
+            <button class="boton" onclick="adelantarAudio('audioCancionCuatro', 10)">Adelantar</button>
+            <input type="range" id="barraProgresoCancionCuatro" value="0" max="100" step="1" onchange="cambiarProgreso('audioCancionCuatro', 'barraProgresoCancionCuatro')">
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="card">
+        <h3>Canción 5</h3>
+        <button class="boton" onclick="reproducirAudio('audioCancionCinco', 'controlesCancionCinco')">Reproducir</button>
+        <audio id="audioCancionCinco" src="Medios/cancion5.mp3"></audio>
+        <div id="controlesCancionCinco" class="controles" style="display: none;">
+            <button class="boton" onclick="pausarAudio('audioCancionCinco')">Pausar</button>
+            <button class="boton" onclick="detenerAudio('audioCancionCinco')">Detener</button>
+            <button class="boton" onclick="retrocederAudio('audioCancionCinco', 10)">Retroceder</button>
+            <button class="boton" onclick="adelantarAudio('audioCancionCinco', 10)">Adelantar</button>
+            <input type="range" id="barraProgresoCancionCinco" value="0" max="100" step="1" onchange="cambiarProgreso('audioCancionCinco', 'barraProgresoCancionCinco')">
         </div>
     </div>
 
