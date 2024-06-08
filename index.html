@@ -77,6 +77,20 @@
         </div>
     </div>
 
+    <div class="clearfix"></div>
+    <div class="card">
+        <h3>Canción 6</h3>
+        <button class="boton" onclick="reproducirAudio('audioCancionSeis', 'controlesCancionSeis')">Reproducir</button>
+        <audio id="audioCancionSeis" src="Medios/cancion6.mp3"></audio>
+        <div id="controlesCancionSeis" class="controles" style="display: none;">
+            <button class="boton" onclick="pausarAudio('audioCancionSeis')">Pausar</button>
+            <button class="boton" onclick="detenerAudio('audioCancionSeis')">Detener</button>
+            <button class="boton" onclick="retrocederAudio('audioCancionSeis', 10)">Retroceder</button>
+            <button class="boton" onclick="adelantarAudio('audioCancionSeis', 10)">Adelantar</button>
+            <input type="range" id="barraProgresoCancionSeis" value="0" max="100" step="1" onchange="cambiarProgreso('audioCancionSeis', 'barraProgresoCancionSeis')">
+        </div>
+    </div>
+
     <script src="JS/script.js"></script>
 </body>
 </html>
